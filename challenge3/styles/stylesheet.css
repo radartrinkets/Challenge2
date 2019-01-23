@@ -1,0 +1,180 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	max-width: 100%;
+	box-sizing: border-box;
+	font-size: 3.5vw;
+}
+
+body a {
+	text-decoration: none;
+	color: #FFBF00;
+}
+
+* {
+	box-sizing: inherit;
+}
+
+.menutoggle {
+	cursor: pointer;
+	padding: 1%;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	padding-top: 60px;
+	transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 3.5vw;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 6vw;
+  padding-left: 5%;
+}
+
+.menubutton {
+	font-size: 6vw;
+}
+
+h1{
+	display: inline;
+	text-align: center;
+	font-weight: 100;
+	padding-bottom: 2%;
+	padding-left: 10%;
+}
+
+
+img {
+	max-width: 100%;
+	}
+
+.headerfoto {
+	display: none;
+}
+
+.blogtekst {
+	padding: 0 3% 3% 3%;
+}
+
+.blogImage {
+	display: block;
+	width: 100%;
+	height: 20%;
+}
+
+.gridItem1 {
+	border-bottom: 0.5px solid black;
+
+
+}
+
+.gridItem2 {
+	border: 0.5px solid black;
+}
+
+
+
+.gridItem4 {
+	border: 0.5px solid black;
+	margin: 1%;
+	padding: 3%;
+}
+
+.gridItem5 {
+	border: 0.5px solid black;
+	margin: 1%;
+	
+}
+
+.gridItem6 {
+	margin: 1%;
+}
+
+.gridItem8 {
+	color: #FFBF00;
+	margin: 1%;
+}
+
+.contactinfo {
+	text-align: center;
+}
+
+
+.sociallinks {
+	text-align: center;
+	font-size: 7vw;
+	margin-bottom: 2%;
+}
+
+
+/** tablet **/
+@media only screen and (min-width: 1536px) and (max-width: 2879px) {
+
+body {
+	font-size: 3vw;
+}
+
+
+
+li {
+	display: inline;
+}
+
+.blogImage {
+	height: 40%;
+}
+}
+
+/** laptop **/
+@media only screen and (min-width: 2880px) and (max-width: 4095px) {
+
+.headerfoto {
+	display: block;
+	
+	
+}
+
+
+
+
+}
+
+/** desktop **/
+@media only screen and (min-width: 4096px)  {
+
+body {
+	max-width: 4096px;
+	margin: auto;
+}
+
+.headerfoto {
+	display: block;
+	
+	
+}
+
+
+}

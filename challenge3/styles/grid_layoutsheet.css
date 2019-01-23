@@ -1,0 +1,123 @@
+
+.gridContainer{
+	display: grid;
+	grid-template-columns: 1fr;
+	
+	height: 600px;
+	grid-gap: 10px;
+
+	grid-template-areas:
+		"title"
+		"menu"
+		"headerfoto"
+		"about"
+		"blog"
+		"gallerij"
+		"contact"
+		"social";
+
+	max-width: 100%;
+
+}
+
+
+
+.gridItem1 {
+	grid-area: title;
+}
+
+.gridItem2 {
+	grid-area: menu;
+}
+
+.gridItem3 {
+	grid-area: headerfoto;
+}
+
+.gridItem4 {
+	grid-area: about;
+}
+
+.gridItem5 {
+	grid-area: blog;
+}
+
+.gridItem6 {
+	grid-area: gallerij;
+}
+
+.gridItem7 {
+	grid-area: contact;
+}
+
+.gridItem8 {
+	grid-area: social;
+}
+
+
+/** tablet **/
+@media only screen and (min-width: 1536px) and (max-width: 2880px) {
+
+.gridContainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	height: 600px;
+	grid-gap: 10px;
+
+	grid-template-areas:
+		"title title"		
+		"about blog"		
+		"gallerij gallerij"
+		"contact social";
+
+	max-width: 100%;
+
+}
+}
+
+/** laptop **/
+@media only screen and (min-width: 2880px) and (max-width: 4095px) {
+
+.gridContainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	height: 600px;
+	grid-gap: 2%;
+
+	grid-template-areas:
+		"title title"
+		"headerfoto headerfoto"		
+		"about blog"		
+		"gallerij gallerij"
+		"contact social";
+
+	max-width: 100%;
+
+}
+
+}
+
+/** desktop **/
+@media only screen and (min-width: 4096px)  {
+
+.gridContainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+	height: 600px;
+	grid-gap: 2%;
+
+	grid-template-areas:
+		"title title"
+		"headerfoto headerfoto"		
+		"about blog"		
+		"gallerij gallerij"
+		"contact social";
+
+	
+
+}
+
+}
